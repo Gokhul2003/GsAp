@@ -3,11 +3,58 @@
     padding: 0;
     box-sizing: border-box;
     font-family: gilroy;
+    color: aliceblue;
 
 }
 html,
 body{
-    height: 50%;
-    width: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+.page1{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page2{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(15, 81, 81);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.page3{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(161, 227, 227);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    height: 350px;
+    width: 350px;
+    background-color: crimson;
+}
+
+h1{
+    position: relative;
+    font-size: 50px;
+    padding: 5px;
+    background-color: blue;
+}
+h2{
+    position: relative;
+    font-size: 50px;
+    padding: 5px;
+    background-color: rgb(179, 0, 255);
+
 
 }
